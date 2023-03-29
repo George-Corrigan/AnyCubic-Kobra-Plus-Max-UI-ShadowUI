@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web.ShadowUI</title>
+    @await Html.PartialAsync("/Pages/Shared/DynamicCss.cshtml")
+</head>
+<body>
+    <div class="page-menubar">
+        <span translate="no">
+            ShadowUI :: <a href="/">English</a>
+            @foreach (Tuple<string, string, int> listItem in Cultures.List())
+            {
+                if (!@listItem.Item2.Equals(Cultures.DefaultCulture, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    <span>- <a href="/?culture=@listItem.Item2">@listItem.Item1</a></span>
+                }
+            }
+            :: <a href="/translate?culture=en">Translate</a>
+        </span>
+    </div>
+    <div class="page-body">
+        @RenderBody()
+    </div>
+</body>
+</html>

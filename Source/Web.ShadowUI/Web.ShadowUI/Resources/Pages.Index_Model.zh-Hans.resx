@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+<data name="Language_zh-Hans" xml:space="preserve"><value>中国人</value></data>
+<data name="Language_nl-NL" xml:space="preserve"><value>荷兰语</value></data>
+<data name="Language_en" xml:space="preserve"><value>英语</value></data>
+<data name="Language_fr" xml:space="preserve"><value>法语</value></data>
+<data name="Language_de-DE" xml:space="preserve"><value>德语</value></data>
+<data name="Language_it" xml:space="preserve"><value>意大利语</value></data>
+<data name="Language_es" xml:space="preserve"><value>西班牙语</value></data>
+<data name="Language_th-TH" xml:space="preserve"><value>泰国</value></data>
+<data name="About" xml:space="preserve"><value>关于</value></data>
+<data name="AutoLeveling" xml:space="preserve"><value>自动调平</value></data>
+<data name="Back" xml:space="preserve"><value>后退</value></data>
+<data name="BedTemp" xml:space="preserve"><value>床温</value></data>
+<data name="BuildVolume" xml:space="preserve"><value>构建体积</value></data>
+<data name="Cancel" xml:space="preserve"><value>取消</value></data>
+<data name="Continue" xml:space="preserve"><value>继续</value></data>
+<data name="CurrentBedTemperature" xml:space="preserve"><value>当前床温</value></data>
+<data name="CurrentFanSpeed" xml:space="preserve"><value>当前风扇速度</value></data>
+<data name="CurrentNozzleTemperature" xml:space="preserve"><value>当前喷嘴温度</value></data>
+<data name="CurrentPrintRate" xml:space="preserve"><value>当前打印速度</value></data>
+<data name="Down" xml:space="preserve"><value>向下</value></data>
+<data name="FanSpeed" xml:space="preserve"><value>风扇转速</value></data>
+<data name="Filament" xml:space="preserve"><value>灯丝</value></data>
+<data name="FilamentIn" xml:space="preserve"><value>长丝输入</value></data>
+<data name="FilamentOut" xml:space="preserve"><value>灯丝出</value></data>
+<data name="FirmwareVersion" xml:space="preserve"><value>固件版本</value></data>
+<data name="IpAddress" xml:space="preserve"><value>IP地址</value></data>
+<data name="Leveling" xml:space="preserve"><value>练级</value></data>
+<data name="Light" xml:space="preserve"><value>光</value></data>
+<data name="Machine" xml:space="preserve"><value>机器</value></data>
+<data name="Message_140" xml:space="preserve"><value>手术结束！</value></data>
+<data name="Message_141" xml:space="preserve"><value>打印机的温度传感器工作不正常。</value></data>
+<data name="Message_142" xml:space="preserve"><value>打印完成。花费的时间如下图所示。</value></data>
+<data name="Message_143" xml:space="preserve"><value>当前操作已暂停，正在等待缓存命令完成。</value></data>
+<data name="Message_144" xml:space="preserve"><value>您将停止当前操作。</value></data>
+<data name="Message_145" xml:space="preserve"><value>灯丝丢失或灯丝传感器工作不正常。</value></data>
+<data name="Message_146" xml:space="preserve"><value>当前正在进行一项操作。请稍后再试。</value></data>
+<data name="Message_147" xml:space="preserve"><value>要取消打印，请按确定。</value></data>
+<data name="Message_148" xml:space="preserve"><value>暂停失败！</value></data>
+<data name="Message_149" xml:space="preserve"><value>无法找到 SD 卡！</value></data>
+<data name="Message_150" xml:space="preserve"><value>打印头温度过低。正在加热，请稍候。</value></data>
+<data name="Message_151" xml:space="preserve"><value>阻止失败！</value></data>
+<data name="Message_152" xml:space="preserve"><value>暂停并等待缓存命令完成。</value></data>
+<data name="Message_153" xml:space="preserve"><value>启动探测操作。</value></data>
+<data name="Message_154" xml:space="preserve"><value>正在试探中...</value></data>
+<data name="Message_173" xml:space="preserve"><value>发生意外断电，之前的操作已停止运行。</value></data>
+<data name="Message_174" xml:space="preserve"><value>发生意外断电，之前的操作已停止运行。</value></data>
+<data name="Message_175" xml:space="preserve"><value>正在预热，请稍候...</value></data>
+<data name="Message_189" xml:space="preserve"><value>正在归巢...</value></data>
+<data name="Message_190" xml:space="preserve"><value>温床加热器检测到异常。请检查加热器和接线是否有任何问题。</value></data>
+<data name="Message_191" xml:space="preserve"><value>检测到温床 NTC 异常。请检查 NTC 和接线是否有任何问题。</value></data>
+<data name="Message_192" xml:space="preserve"><value>检测到喷嘴加热器异常。请检查加热器和接线是否有任何问题。</value></data>
+<data name="Message_193" xml:space="preserve"><value>喷嘴 NTC 检测到异常。请检查 NTC 和接线是否有任何问题。</value></data>
+<data name="Message_194" xml:space="preserve"><value>X 归位过程失败。请检查 X 限位器和接线是否有任何问题。</value></data>
+<data name="Message_195" xml:space="preserve"><value>Y 归位过程失败。请检查 Y 限位器和接线是否有任何问题。</value></data>
+<data name="Message_196" xml:space="preserve"><value>Z 归位过程失败。请检查 Z 挡块和接线是否有任何问题。</value></data>
+<data name="Message_197" xml:space="preserve"><value>Z 归位过程失败。请检查 ZL 止动器和接线是否有任何问题。</value></data>
+<data name="Message_198" xml:space="preserve"><value>Z 归位过程失败。请检查 ZR 止动器和接线是否有任何问题。</value></data>
+<data name="Message_199" xml:space="preserve"><value>水平传感器检测到异常。请检查接线是否有任何问题。</value></data>
+<data name="Message_200" xml:space="preserve"><value>自动调平失败。热端离温床太高。请检查 Z 挡块是否卡住或出现故障。</value></data>
+<data name="Message_204" xml:space="preserve"><value>要校准水平传感器，请使用工具接触打印机喷嘴。</value></data>
+<data name="Message_205" xml:space="preserve"><value>校准成功，调平过程开始。</value></data>
+<data name="Message_206" xml:space="preserve"><value>校准失败。请检查接线或联系客服。</value></data>
+<data name="MotorsOff" xml:space="preserve"><value>电机关闭</value></data>
+<data name="MoveAxes" xml:space="preserve"><value>移动轴</value></data>
+<data name="NozzleTemp" xml:space="preserve"><value>喷嘴温度</value></data>
+<data name="Ok" xml:space="preserve"><value>好的</value></data>
+<data name="Pause" xml:space="preserve"><value>暂停</value></data>
+<data name="Preheat" xml:space="preserve"><value>预热</value></data>
+<data name="PreheatAbs" xml:space="preserve"><value>预热ABS</value></data>
+<data name="PreheatPla" xml:space="preserve"><value>预热PLA</value></data>
+<data name="Prepare" xml:space="preserve"><value>准备</value></data>
+<data name="Print" xml:space="preserve"><value>打印</value></data>
+<data name="PrintFileSelection" xml:space="preserve"><value>打印（文件选择）</value></data>
+<data name="PrintPaused" xml:space="preserve"><value>打印（暂停）</value></data>
+<data name="PrintSpeed" xml:space="preserve"><value>打印速度</value></data>
+<data name="Progress" xml:space="preserve"><value>进步</value></data>
+<data name="Refresh" xml:space="preserve"><value>刷新</value></data>
+<data name="Reset" xml:space="preserve"><value>重置</value></data>
+<data name="Resume" xml:space="preserve"><value>恢复</value></data>
+<data name="Set" xml:space="preserve"><value>放</value></data>
+<data name="Settings" xml:space="preserve"><value>设置</value></data>
+<data name="SoundsDisabled" xml:space="preserve"><value>声音已禁用</value></data>
+<data name="SoundsEnabled" xml:space="preserve"><value>声音已启用</value></data>
+<data name="Speed" xml:space="preserve"><value>速度</value></data>
+<data name="Stop" xml:space="preserve"><value>停止</value></data>
+<data name="System" xml:space="preserve"><value>系统</value></data>
+<data name="TargetBedTemperature" xml:space="preserve"><value>目标床温</value></data>
+<data name="TargetFanSpeed" xml:space="preserve"><value>目标风扇速度</value></data>
+<data name="TargetNozzleTemperature" xml:space="preserve"><value>目标喷嘴温度</value></data>
+<data name="TargetPrintSpeed" xml:space="preserve"><value>目标打印速度</value></data>
+<data name="TechnicalSupport" xml:space="preserve"><value>技术支援</value></data>
+<data name="Temperature" xml:space="preserve"><value>温度</value></data>
+<data name="TimeElapsed" xml:space="preserve"><value>时间流逝</value></data>
+<data name="UIVersion" xml:space="preserve"><value>界面版本</value></data>
+<data name="Up" xml:space="preserve"><value>向上</value></data>
+<data name="UserInput" xml:space="preserve"><value>用户输入</value></data>
+<data name="WiFi" xml:space="preserve"><value>无线上网</value></data>
+<data name="WiFiName" xml:space="preserve"><value>Wi-Fi 名称</value></data>
+<data name="X" xml:space="preserve"><value>X</value></data>
+<data name="XAxisZero" xml:space="preserve"><value>X 轴归零</value></data>
+<data name="Y" xml:space="preserve"><value>是</value></data>
+<data name="YAxisZero" xml:space="preserve"><value>Y轴归零</value></data>
+<data name="Z" xml:space="preserve"><value>Z</value></data>
+<data name="ZAxisZero" xml:space="preserve"><value>Z 轴归零</value></data>
+<data name="ZeroAll" xml:space="preserve"><value>全部归零</value></data>
+<data name="ZOffset" xml:space="preserve"><value>Z 偏移</value></data>
+
+</root>

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+<data name="Language_zh-Hans" xml:space="preserve"><value>Cinese</value></data>
+<data name="Language_nl-NL" xml:space="preserve"><value>Olandese</value></data>
+<data name="Language_en" xml:space="preserve"><value>Inglese</value></data>
+<data name="Language_fr" xml:space="preserve"><value>francese</value></data>
+<data name="Language_de-DE" xml:space="preserve"><value>Tedesco</value></data>
+<data name="Language_it" xml:space="preserve"><value>Italiano</value></data>
+<data name="Language_es" xml:space="preserve"><value>spagnolo</value></data>
+<data name="Language_th-TH" xml:space="preserve"><value>tailandese</value></data>
+<data name="About" xml:space="preserve"><value>Di</value></data>
+<data name="AutoLeveling" xml:space="preserve"><value>Autolivellamento</value></data>
+<data name="Back" xml:space="preserve"><value>Indietro</value></data>
+<data name="BedTemp" xml:space="preserve"><value>Temp. Letto</value></data>
+<data name="BuildVolume" xml:space="preserve"><value>Costruisci volume</value></data>
+<data name="Cancel" xml:space="preserve"><value>Annulla</value></data>
+<data name="Continue" xml:space="preserve"><value>Continua</value></data>
+<data name="CurrentBedTemperature" xml:space="preserve"><value>Temperatura attuale del letto</value></data>
+<data name="CurrentFanSpeed" xml:space="preserve"><value>Velocità corrente della ventola</value></data>
+<data name="CurrentNozzleTemperature" xml:space="preserve"><value>Temperatura attuale dell'ugello</value></data>
+<data name="CurrentPrintRate" xml:space="preserve"><value>Velocità di stampa corrente</value></data>
+<data name="Down" xml:space="preserve"><value>Giù</value></data>
+<data name="FanSpeed" xml:space="preserve"><value>Velocità della ventola</value></data>
+<data name="Filament" xml:space="preserve"><value>Filamento</value></data>
+<data name="FilamentIn" xml:space="preserve"><value>Filamento dentro</value></data>
+<data name="FilamentOut" xml:space="preserve"><value>Filamento fuori</value></data>
+<data name="FirmwareVersion" xml:space="preserve"><value>Versione del firmware</value></data>
+<data name="IpAddress" xml:space="preserve"><value>Indirizzo IP</value></data>
+<data name="Leveling" xml:space="preserve"><value>Livellamento</value></data>
+<data name="Light" xml:space="preserve"><value>Leggero</value></data>
+<data name="Machine" xml:space="preserve"><value>Macchina</value></data>
+<data name="Message_140" xml:space="preserve"><value>L'operazione è terminata!</value></data>
+<data name="Message_141" xml:space="preserve"><value>Il sensore di temperatura della stampante non funziona correttamente.</value></data>
+<data name="Message_142" xml:space="preserve"><value>La stampa è completa. Il tempo impiegato è mostrato di seguito.</value></data>
+<data name="Message_143" xml:space="preserve"><value>L'operazione corrente è stata sospesa ed è in attesa del completamento del comando cache.</value></data>
+<data name="Message_144" xml:space="preserve"><value>Interromperai l'operazione in corso.</value></data>
+<data name="Message_145" xml:space="preserve"><value>Il filamento manca o il sensore del filamento non funziona correttamente.</value></data>
+<data name="Message_146" xml:space="preserve"><value>Un'operazione è attualmente in corso. Per favore riprova più tardi.</value></data>
+<data name="Message_147" xml:space="preserve"><value>Per annullare la stampa, premere OK.</value></data>
+<data name="Message_148" xml:space="preserve"><value>Impossibile mettere in pausa!</value></data>
+<data name="Message_149" xml:space="preserve"><value>Impossibile trovare la scheda SD!</value></data>
+<data name="Message_150" xml:space="preserve"><value>La temperatura della testina di stampa è troppo bassa. Attendere mentre si riscalda.</value></data>
+<data name="Message_151" xml:space="preserve"><value>Impossibile fermarsi!</value></data>
+<data name="Message_152" xml:space="preserve"><value>In pausa e in attesa del completamento del comando cache.</value></data>
+<data name="Message_153" xml:space="preserve"><value>Avvio dell'operazione di tastatura.</value></data>
+<data name="Message_154" xml:space="preserve"><value>Prove in corso...</value></data>
+<data name="Message_173" xml:space="preserve"><value>Si è verificata un'interruzione di corrente imprevista e l'operazione precedente è stata interrotta.</value></data>
+<data name="Message_174" xml:space="preserve"><value>Si è verificata un'interruzione di corrente imprevista e l'operazione precedente è stata interrotta.</value></data>
+<data name="Message_175" xml:space="preserve"><value>Preriscaldamento in corso, attendere...</value></data>
+<data name="Message_189" xml:space="preserve"><value>Ritorno in corso...</value></data>
+<data name="Message_190" xml:space="preserve"><value>È stata rilevata un'anomalia nel riscaldatore del focolaio. Si prega di ispezionare sia il riscaldatore che il cablaggio per eventuali problemi.</value></data>
+<data name="Message_191" xml:space="preserve"><value>È stata rilevata un'anomalia nell'NTC focolaio. Si prega di ispezionare sia l'NTC che il cablaggio per eventuali problemi.</value></data>
+<data name="Message_192" xml:space="preserve"><value>È stata rilevata un'anomalia nel riscaldatore dell'ugello. Si prega di ispezionare sia il riscaldatore che il cablaggio per eventuali problemi.</value></data>
+<data name="Message_193" xml:space="preserve"><value>È stata rilevata un'anomalia nell'NTC dell'ugello. Si prega di ispezionare sia l'NTC che il cablaggio per eventuali problemi.</value></data>
+<data name="Message_194" xml:space="preserve"><value>Il processo di homing di X non è riuscito. Si prega di controllare il fine corsa X e il cablaggio per eventuali problemi.</value></data>
+<data name="Message_195" xml:space="preserve"><value>Il processo di homing Y è fallito. Si prega di controllare il finecorsa Y e il cablaggio per eventuali problemi.</value></data>
+<data name="Message_196" xml:space="preserve"><value>Il processo di homing Z non è riuscito. Si prega di controllare il fine corsa Z e il cablaggio per eventuali problemi.</value></data>
+<data name="Message_197" xml:space="preserve"><value>Il processo di homing Z non è riuscito. Si prega di controllare il finecorsa ZL e il cablaggio per eventuali problemi.</value></data>
+<data name="Message_198" xml:space="preserve"><value>Il processo di homing Z non è riuscito. Si prega di controllare il fine corsa ZR e il cablaggio per eventuali problemi.</value></data>
+<data name="Message_199" xml:space="preserve"><value>È stata rilevata un'anomalia nel sensore di livellamento. Si prega di controllare il cablaggio per eventuali problemi.</value></data>
+<data name="Message_200" xml:space="preserve"><value>Il livellamento automatico non è riuscito. L'hotend è troppo alto rispetto al focolaio. Si prega di verificare se il fine corsa Z si attacca o non funziona correttamente.</value></data>
+<data name="Message_204" xml:space="preserve"><value>Per calibrare il sensore di livellamento, utilizzare uno strumento per toccare l'ugello della stampante.</value></data>
+<data name="Message_205" xml:space="preserve"><value>La calibrazione è andata a buon fine e il processo di livellamento è iniziato.</value></data>
+<data name="Message_206" xml:space="preserve"><value>La calibrazione non è riuscita. Verificare il cablaggio o contattare il servizio clienti.</value></data>
+<data name="MotorsOff" xml:space="preserve"><value>Motori spenti</value></data>
+<data name="MoveAxes" xml:space="preserve"><value>Sposta gli assi</value></data>
+<data name="NozzleTemp" xml:space="preserve"><value>Temp. Ugello</value></data>
+<data name="Ok" xml:space="preserve"><value>OK</value></data>
+<data name="Pause" xml:space="preserve"><value>Pausa</value></data>
+<data name="Preheat" xml:space="preserve"><value>Preriscaldare</value></data>
+<data name="PreheatAbs" xml:space="preserve"><value>Preriscaldare l'ABS</value></data>
+<data name="PreheatPla" xml:space="preserve"><value>Preriscaldare il PLA</value></data>
+<data name="Prepare" xml:space="preserve"><value>Preparare</value></data>
+<data name="Print" xml:space="preserve"><value>Stampa</value></data>
+<data name="PrintFileSelection" xml:space="preserve"><value>Stampa (selezione file)</value></data>
+<data name="PrintPaused" xml:space="preserve"><value>Stampa (in pausa)</value></data>
+<data name="PrintSpeed" xml:space="preserve"><value>Velocità di stampa</value></data>
+<data name="Progress" xml:space="preserve"><value>Progresso</value></data>
+<data name="Refresh" xml:space="preserve"><value>ricaricare</value></data>
+<data name="Reset" xml:space="preserve"><value>Ripristina</value></data>
+<data name="Resume" xml:space="preserve"><value>Riprendere</value></data>
+<data name="Set" xml:space="preserve"><value>Impostato</value></data>
+<data name="Settings" xml:space="preserve"><value>Impostazioni</value></data>
+<data name="SoundsDisabled" xml:space="preserve"><value>Suoni disattivati</value></data>
+<data name="SoundsEnabled" xml:space="preserve"><value>Suoni abilitati</value></data>
+<data name="Speed" xml:space="preserve"><value>Velocità</value></data>
+<data name="Stop" xml:space="preserve"><value>Fermare</value></data>
+<data name="System" xml:space="preserve"><value>Sistema</value></data>
+<data name="TargetBedTemperature" xml:space="preserve"><value>Temperatura target del letto</value></data>
+<data name="TargetFanSpeed" xml:space="preserve"><value>Velocità target della ventola</value></data>
+<data name="TargetNozzleTemperature" xml:space="preserve"><value>Temperatura target dell'ugello</value></data>
+<data name="TargetPrintSpeed" xml:space="preserve"><value>Velocità di stampa target</value></data>
+<data name="TechnicalSupport" xml:space="preserve"><value>Supporto tecnico</value></data>
+<data name="Temperature" xml:space="preserve"><value>Temperatura</value></data>
+<data name="TimeElapsed" xml:space="preserve"><value>Tempo trascorso</value></data>
+<data name="UIVersion" xml:space="preserve"><value>Versione dell'interfaccia utente</value></data>
+<data name="Up" xml:space="preserve"><value>Su</value></data>
+<data name="UserInput" xml:space="preserve"><value>Input dell'utente</value></data>
+<data name="WiFi" xml:space="preserve"><value>Wifi</value></data>
+<data name="WiFiName" xml:space="preserve"><value>Nome Wi-Fi</value></data>
+<data name="X" xml:space="preserve"><value>X</value></data>
+<data name="XAxisZero" xml:space="preserve"><value>Asse X Zero</value></data>
+<data name="Y" xml:space="preserve"><value>Y</value></data>
+<data name="YAxisZero" xml:space="preserve"><value>Asse Y zero</value></data>
+<data name="Z" xml:space="preserve"><value>z</value></data>
+<data name="ZAxisZero" xml:space="preserve"><value>Asse Z zero</value></data>
+<data name="ZeroAll" xml:space="preserve"><value>Zero Tutto</value></data>
+<data name="ZOffset" xml:space="preserve"><value>Z-offset</value></data>
+
+</root>

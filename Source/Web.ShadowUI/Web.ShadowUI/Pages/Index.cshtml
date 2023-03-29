@@ -1,0 +1,96 @@
+﻿@page
+@model Index_Model
+@{
+    int[] screens = new int[] { 6, 121, 122, 123, 124, 125, 127, 128, 129, 130, 131, 133, 135, 136, 137, 138, 139, 170, 209, 212 };
+    int[] shadows = new int[] { 40, 155, 156, 214, 158, 159, 161, 162, 163, 164, 165, 134, 166, 167, 168, 169, 157, 171, 210, 211 };
+    int[] messages1 = new int[] { 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 173, 175 };
+    int[] messages2 = new int[] { 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 204, 205, 206 };
+}
+
+<table cellspacing=10>
+    <tr>
+        @for (int index = 0; index < screens.Length; index++)
+        {
+            Model.CssClass = String.Empty;
+            Model.CurrentPage = screens[index].ToString();
+            <td>
+                @Model.CurrentPage
+                <div class="screen">
+                    @await Html.PartialAsync(String.Format("/Pages/Screens/{0}.cshtml", Model.CurrentPage))
+                </div>
+            </td>
+        }
+    </tr>
+</table>
+
+<table cellspacing=10>
+    <tr>
+        @for (int index = 0; index < shadows.Length; index++)
+        {
+            Model.CssClass = "disabled";
+            Model.CurrentPage = shadows[index].ToString();
+            <td>
+                @Model.CurrentPage
+                <div class="@((shadows[index]==155) ? "screen" : "screen-disabled")">
+                    @await Html.PartialAsync(String.Format("/Pages/Screens/{0}.cshtml", screens[index]))
+                </div>
+            </td>
+        }
+        <td>
+            172
+            <div class="screen-disabled">
+                @await Html.PartialAsync("/Pages/Alerts/001.cshtml")
+            </div>
+        </td>
+        <td>
+            174
+            <div class="screen-disabled">
+                @await Html.PartialAsync("/Pages/Alerts/002.cshtml")
+            </div>
+        </td>
+        <td>
+            176
+            <div class="screen-disabled">
+                @await Html.PartialAsync("/Pages/Alerts/003.cshtml")
+            </div>
+        </td>
+        <td>
+            178
+            <div class="screen-disabled">
+                @await Html.PartialAsync("/Pages/Alerts/004.cshtml")
+            </div>
+        </td>
+    </tr>
+</table>
+
+<table cellspacing=10>
+    <tr>
+        @for (int index = 0; index < messages1.Length; index++)
+        {
+            Model.CssClass = String.Empty;
+            Model.CurrentPage = messages1[index].ToString();
+            <td>
+                @Model.CurrentPage
+                <div class="screen">
+                    @await Html.PartialAsync(String.Format("/Pages/Alerts/{0}.cshtml", Model.CurrentPage))
+                </div>
+            </td>
+        }
+    </tr>
+</table>
+
+<table cellspacing=10>
+    <tr>
+        @for (int index = 0; index < messages2.Length; index++)
+        {
+            Model.CssClass = String.Empty;
+            Model.CurrentPage = messages2[index].ToString();
+            <td>
+                @Model.CurrentPage
+                <div class="screen">
+                    @await Html.PartialAsync(String.Format("/Pages/Alerts/{0}.cshtml", Model.CurrentPage))
+                </div>
+            </td>
+        }
+    </tr>
+</table>

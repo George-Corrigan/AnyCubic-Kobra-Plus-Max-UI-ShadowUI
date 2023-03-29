@@ -1,0 +1,14 @@
+﻿<div class="header">
+    <div class="title shadow-normal"><img src="/images/home-house.png" height="14" /> &gt;
+        @Model.GetCultureText("Prepare")
+        <div class="screen-number-right">[@Model.CurrentPage]</div>
+    </div>
+</div>
+<div class="body">
+    <div class="buttons">
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Leveling")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Preheat")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Filament")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Back")</div>
+    </div>
+</div>

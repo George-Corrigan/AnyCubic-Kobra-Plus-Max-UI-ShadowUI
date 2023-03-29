@@ -1,0 +1,25 @@
+﻿<div class="header">
+    <div class="title shadow-normal"><img src="/images/home-house.png" height="14" /> &gt;
+        @Model.GetCultureText("PrintPaused")
+        <div class="screen-number-right">[@Model.CurrentPage]</div>
+    </div>
+</div>
+<div class="body">
+    <table border=0 cellpadding=0 cellspacing=0 width="100%">
+        <colgroups><col width="50%"><col width="50%"></colgroups>
+        <tr><td colspan=2><div class="info shadow-normal">&nbsp;</div></td></tr>
+        <tr><td colspan=2><div class="info2 shadow-normal">@Model.GetCultureText("TimeElapsed")</div></td></tr>
+        <tr><td><div class="info2 shadow-normal">@Model.GetCultureText("Progress")<div class="label-suffix">%</div></div></td><td><div class="info2 shadow-normal">@Model.GetCultureText("PrintSpeed")<div class="label-suffix">%</div></div></td></tr>
+        <tr><td><div class="info2 shadow-normal">@Model.GetCultureText("NozzleTemp")<div class="label-suffix">°C</div></div></td><td><div class="info2 shadow-normal">@Model.GetCultureText("BedTemp")<div class="label-suffix">°C</div></div></td></tr>
+    </table>
+    <div class="buttons">
+        <table border=0 cellpadding=0 cellspacing=0 width="100%">
+            <colgroups><col width="50%"><col width="50%"></colgroups>
+            <tr>
+                <td><div class="button @Model.CssClass shadow-normal green">@Model.GetCultureText("Resume")</div></td>
+                <td><div class="button @Model.CssClass shadow-normal red">@Model.GetCultureText("Stop")</div></td>
+            </tr>
+        </table>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Settings")</div>
+    </div>
+</div>

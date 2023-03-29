@@ -1,0 +1,17 @@
+﻿<div class="header">
+    <div class="title shadow-normal" style="">
+        @await Html.PartialAsync("/Pages/Shared/Header_Temperatures.cshtml")
+    </div>
+</div>
+<div class="body">
+    <div style="position: absolute; padding: 18px 0px 0px 213px;">
+        <img class="home-gear home-gear-@Model.CssClass" />
+    </div>
+    <div style="height: 50px;">&nbsp;</div>
+    <img src=".\images\home-logo.png?1" height="160" width="160">
+    <div class="buttons">
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Print")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Prepare")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("System")</div>
+    </div>
+</div>

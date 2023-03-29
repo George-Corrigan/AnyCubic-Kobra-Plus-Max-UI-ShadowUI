@@ -1,0 +1,14 @@
+﻿<div class="header">
+    <div class="title shadow-normal"><img src="/images/home-house.png" height="14" /> &gt;
+        @Model.GetCultureText("Settings")
+        <div class="screen-number-right">[@Model.CurrentPage]</div>
+    </div>
+</div>
+<div class="body">
+    <div class="buttons">
+        <div class="button disabled shadow-normal">@Model.GetCultureText(String.Format("Language_{0}", @Model.GetCultureName()))</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("SoundsEnabled")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("About")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Back")</div>
+    </div>
+</div>

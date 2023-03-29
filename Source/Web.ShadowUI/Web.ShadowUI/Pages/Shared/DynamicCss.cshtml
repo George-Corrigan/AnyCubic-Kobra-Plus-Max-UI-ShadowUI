@@ -1,0 +1,490 @@
+﻿@{
+    int fontSize = 12;
+    if (Model.GetFontSizeOffset() > 0)
+    {
+        fontSize += Model.GetFontSizeOffset();
+    }
+}
+
+<style type="text/css">
+
+    body {
+        background: #dddddd;
+        margin: 0px 0px 0px 0px;
+    }
+
+    body, td {
+        color: #000000;
+        font-family: Tahoma, Arial;
+        font-size: 12px;
+    }
+
+    div.page-body {
+        padding: 20px 20px 20px 20px;
+    }
+
+    div.page-menubar {
+        background: #3c6690;
+        color: #ffffff;
+        padding: 10px 10px 10px 10px;
+    }
+
+        div.page-menubar a {
+            color: yellow;
+        }
+
+    div.body {
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+        div.body table {
+            border-spacing: 0px;
+            margin: -5px 0px -5px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+
+            div.body table tr td div.button {
+                margin-top: 10px;
+            }
+
+        div.body td {
+            text-align: center;
+        }
+
+    div.header {
+        background: #3c6690;
+        margin: 0px 0px 0px -10px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    div.title {
+        color: #dddddd;
+        height: 25px;
+        padding: 10px 10px 0px 20px;
+        text-align: left;
+        overflow: hidden;
+        max-width: 100%;
+        white-space: nowrap;
+    }
+
+    div.screen {
+        background: #000000;
+        background-image: url("/images/background-silver.jpg");
+        border: 1px solid red;
+        font-size: @String.Format("{0}px", fontSize);
+        height: 480px;
+        position: relative;
+        width: 272px;
+        overflow: hidden;
+    }
+
+    div.screen-disabled {
+        background: #000000;
+        background-image: none;
+        border: 1px solid red;
+        height: 480px;
+        position: relative;
+        width: 272px;
+        overflow: hidden;
+    }
+
+        div.screen-disabled div.header {
+            background: #000000;
+            margin: 0px 0px 0px -10px;
+            padding: 0px 0px 0px 0px;
+        }
+
+        div.screen-disabled div.title {
+            color: #000000;
+            height: 25px;
+            padding: 10px 10px 0px 20px;
+            text-align: left;
+            overflow: hidden;
+            max-width: 100%;
+            white-space: nowrap;
+        }
+
+            div.screen-disabled div.title img {
+                visibility: hidden;
+            }
+
+    div.button {
+        align-items: center;
+        background: #3c6690;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        color: #ffffff;
+        display: flex;
+        font-weight: bold;
+        height: 47px;
+        justify-content: center;
+        margin: 15px 5px 5px 5px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    div.label {
+        color: #ffffeb;
+        height: 17px;
+        margin: 5px 5px 2px 5px;
+        overflow: visible;
+        padding: 0px 0px 0px 0px;
+    }
+
+    div.info {
+        background: #ffffeb;
+        border: 1px solid #3c6690;
+        border-radius: 8px;
+        color: #000000;
+        height: 27px;
+        margin: 10px 5px 5px 5px;
+        padding: 5px 5px 0px 5px;
+    }
+
+    div.screen-disabled div.info {
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        color: #000000;
+        height: 27px;
+        margin: 10px 5px 5px 5px;
+        padding: 5px 5px 0px 5px;
+    }
+
+    div.info-title {
+        color: yellow;
+        font-weight: bold;
+        margin: 0px 5px 10px 5px;
+        padding: 8px 10px 0px 10px;
+        visibility: hidden;
+    }
+
+    div.info2 {
+        background: #ffffeb;
+        border: 1px solid #3c6690;
+        border-radius: 8px;
+        color: #000000;
+        font-weight: bold;
+        height: 50px;
+        margin: 10px 5px 5px 5px;
+        padding: 5px 2px 0px 2px;
+        position: relative;
+    }
+
+    div.screen-disabled div.info2 {
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        color: #000000;
+        font-weight: bold;
+        height: 50px;
+        margin: 10px 5px 5px 5px;
+        padding: 5px 2px 0px 2px;
+        position: relative;
+    }
+
+    div.spinner-left {
+        background: #3c6690 url("/images/spinner-minus.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 1px solid #ffffeb;
+        border-radius: 8px;
+        color: #ffffeb;
+        float: left;
+        font-weight: bold;
+        height: 20px;
+        left: 0px;
+        padding: 12px 0px 0px 0px;
+        width: 50px;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    div.spinner-right {
+        background: #3c6690 url("/images/spinner-plus.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 1px solid #ffffeb;
+        border-radius: 8px;
+        color: #ffffeb;
+        float: right;
+        height: 20px;
+        padding: 12px 0px 0px 0px;
+        width: 50px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    div.list-refresh {
+        background: #3c6690 url("/images/refresh.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 1px solid #ffffeb;
+        border-radius: 8px;
+        color: #ffffeb;
+        font-weight: bold;
+        height: 20px;
+        margin: 10px 5px 5px 5px;
+        padding: 12px 0px 0px 0px;
+    }
+
+    div.list-page-down {
+        background: #3c6690 url("/images/arrow-down.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 1px solid #ffffeb;
+        border-radius: 8px;
+        color: #ffffeb;
+        font-weight: bold;
+        height: 20px;
+        margin: 10px 5px 5px 5px;
+        padding: 12px 0px 0px 0px;
+    }
+
+    div.list-page-up {
+        background: #3c6690 url("/images/arrow-up.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 1px solid #ffffeb;
+        border-radius: 8px;
+        color: #ffffeb;
+        font-weight: bold;
+        height: 20px;
+        margin: 10px 5px 5px 5px;
+        padding: 12px 0px 0px 0px;
+    }
+
+    div.list-refresh {
+        background: #3c6690 url("/images/refresh.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 1px solid #ffffeb;
+        border-radius: 8px;
+        color: #ffffeb;
+        font-weight: bold;
+        height: 20px;
+        margin: 10px 5px 5px 5px;
+        padding: 12px 0px 0px 0px;
+    }
+
+    div.version-info {
+        color: #40638d;
+        font-family: Tahoma, Arial;
+        font-size: 12px;
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    div.buttons {
+        bottom: 15px;
+        position: absolute;
+        width: 252px;
+    }
+
+    div.red {
+        background: red;
+    }
+
+    div.green {
+        zbackground: green;
+    }
+
+    div.arrow-base {
+        align-items: center;
+        background: #3c6690;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        color: #ffffff;
+        display: flex;
+        font-weight: bold;
+        height: 38px;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        width: 38px;
+    }
+
+    div.arrow-center {
+    }
+
+    div.arrow-down {
+        align-items: start;
+        background-image: linear-gradient(to top right, transparent 50%, #333333 0), linear-gradient(to bottom right, #333333 50%, transparent 0);
+        background-size: 50% 100%;
+        background-repeat: no-repeat;
+        background-position: left, right;
+        font-size: 12px;
+        height: 34px;
+        padding: 4px 0px 0px 0px;
+    }
+
+    div.arrow-left {
+        background-image: linear-gradient(to bottom right, transparent 50%, #333333 0), linear-gradient(to bottom left, #333333 50%, transparent 0);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        background-position: top, bottom;
+        font-size: 12px;
+        justify-content: right;
+        padding: 0px 4px 0px 0px;
+        width: 34px;
+    }
+
+    div.arrow-right {
+        background-image: linear-gradient(to bottom left, transparent 50%, #333333 0), linear-gradient(to bottom right, #333333 50%, transparent 0);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        background-position: top, bottom;
+        font-size: 12px;
+        justify-content: left;
+        padding: 0px 0px 0px 4px;
+        width: 34px;
+    }
+
+    div.arrow-up {
+        align-items: end;
+        background-image: linear-gradient(to bottom right, transparent 50%, #333333 0), linear-gradient(to top right, #333333 50%, transparent 0);
+        background-size: 50% 100%;
+        background-repeat: no-repeat;
+        background-position: left, right;
+        font-size: 12px;
+        height: 34px;
+        padding: 0px 0px 4px 0px;
+    }
+
+    div.message-box {
+        background: #ffffeb;
+        border: 1px solid #999999;
+        border-radius: 8px;
+        bottom: 215px;
+        color: #000000;
+        font-weight: bold;
+        margin: 15px 5px 5px 5px;
+        padding: 25px 15px 25px 15px;
+        position: absolute;
+        width: 210px;
+    }
+
+    div.message-placeholder {
+        margin: 15px 0px 0px 0px;
+    }
+
+    div.message-box-buttons {
+        top: 260px;
+        position: absolute;
+        width: 252px;
+    }
+
+    div.screen-number-center {
+        position: absolute;
+        text-align: center;
+        width: 252px;
+        visibility: hidden;
+    }
+
+    div.screen-number-right {
+        position: absolute;
+        text-align: right;
+        top: 12px;
+        width: 252px;
+        visibility: hidden;
+    }
+
+    div.label-suffix {
+        bottom: 8px;
+        color: #666666;
+        font-size: 12px;
+        font-weight: normal;
+        left: calc(50% - 32px);
+        position: absolute;
+        text-align: right;
+        width: 75px;
+    }
+
+    div.label-suffix2 {
+        color: #cccccc;
+        font-size: 12px;
+        font-weight: normal;
+        position: absolute;
+        text-align: right;
+        top: 12px;
+    }
+
+    div.shadow-normal {
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 1.0), 6px 6px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    div.disabled {
+        background-color: #26384a;
+        color: #999999;
+    }
+
+    div.list-page-down-disabled {
+        background: #26384a url("/images/arrow-down-disabled.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    div.list-page-up-disabled {
+        background: #26384a url("/images/arrow-up-disabled.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    div.list-refresh-disabled {
+        background: #26384a url("/images/refresh-disabled.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    div.spinner-left-disabled {
+        background: #26384a url("/images/spinner-minus-disabled.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    div.spinner-right-disabled {
+        background: #26384a url("/images/spinner-plus-disabled.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    img.home-gear {
+        content: url("/images/home-gear.png");
+        filter: drop-shadow(4px 4px 8px #000000);
+        float: right;
+        margin: 2px 0px 0px 0px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    img.home-gear-disabled {
+        content: url("/images/home-gear-disabled.png");
+    }
+
+    div.input-check {
+        background: #3c6690 url("/images/input-check.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    div.input-check-disabled {
+        background: #26384a url("/images/input-check-disabled.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    div.input-delete {
+        background: #3c6690 url("/images/input-delete.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    div.input-delete-disabled {
+        background: #26384a url("/images/input-delete-disabled.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+</style>

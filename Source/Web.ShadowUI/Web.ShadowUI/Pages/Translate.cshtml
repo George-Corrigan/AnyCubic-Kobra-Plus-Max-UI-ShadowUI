@@ -1,0 +1,25 @@
+﻿@page
+@model Web.ShadowUI.Pages.Translate_Model
+@{
+    string[] resourceNames = new string[] { "About", "AutoLeveling", "Back", "BedTemp", "BuildVolume", "Cancel", "Continue", "CurrentBedTemperature", "CurrentFanSpeed", "CurrentNozzleTemperature", "CurrentPrintRate", "Down", "FanSpeed", "Filament", "FilamentIn", "FilamentOut", "FirmwareVersion", "IpAddress", "Leveling", "Light", "Machine", "Message_140", "Message_141", "Message_142", "Message_143", "Message_144", "Message_145", "Message_146", "Message_147", "Message_148", "Message_149", "Message_150", "Message_151", "Message_152", "Message_153", "Message_154", "Message_173", "Message_174", "Message_175", "Message_189", "Message_190", "Message_191", "Message_192", "Message_193", "Message_194", "Message_195", "Message_196", "Message_197", "Message_198", "Message_199", "Message_200", "Message_204", "Message_205", "Message_206", "MotorsOff", "MoveAxes", "NozzleTemp", "Ok", "Pause", "Preheat", "PreheatAbs", "PreheatPla", "Prepare", "Print", "PrintFileSelection", "PrintPaused", "PrintSpeed", "Progress", "Refresh", "Reset", "Resume", "Set", "Settings", "SoundsDisabled", "SoundsEnabled", "Speed", "Stop", "System", "TargetBedTemperature", "TargetFanSpeed", "TargetNozzleTemperature", "TargetPrintSpeed", "TechnicalSupport", "Temperature", "TimeElapsed", "UIVersion", "Up", "UserInput", "WiFi", "WiFiName", "X", "XAxisZero", "Y", "YAxisZero", "Z", "ZAxisZero", "ZeroAll", "ZOffset" };
+}
+
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element'); }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+@foreach (Tuple<string, string, int> listItem in Cultures.List())
+{
+    <div>
+        <span translate="no">&lt;data name=&quot;Language_@listItem.Item2&quot; xml:space=&quot;preserve&quot;&gt;&lt;value&gt;</span>@listItem.Item1<span translate="no">&lt;/value&gt;&lt;/data&gt;</span>
+    </div>
+}
+
+@foreach (string name in resourceNames)
+{
+    <div>
+        <span translate="no">&lt;data name=&quot;@name&quot; xml:space=&quot;preserve&quot;&gt;&lt;value&gt;</span>@Model.GetCultureText(name)<span translate="no">&lt;/value&gt;&lt;/data&gt;</span>
+    </div>
+}

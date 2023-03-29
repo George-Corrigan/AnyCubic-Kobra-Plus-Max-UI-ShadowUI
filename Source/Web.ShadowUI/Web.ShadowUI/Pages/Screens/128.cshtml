@@ -1,0 +1,60 @@
+﻿<div class="header">
+    <div class="title shadow-normal"><img src="/images/home-house.png" height="14" /> &gt;
+        @Model.GetCultureText("System") &gt; @Model.GetCultureText("Move Axes")
+        <div class="screen-number-right">[@Model.CurrentPage]</div>
+    </div>
+</div>
+<div class="body">
+    <div style="height: 5px;">&nbsp;</div>
+    <table border=0 cellpadding=0 cellspacing=0 width="100%">
+        <colgroups><col><col width="32%"><col width="32%"><col width="32%"><col></colgroups>
+        <tr>
+            <td></td>
+            <td><div class="button @Model.CssClass shadow-normal"><span translate="no">.1 mm</span></div></td>
+            <td><div class="button @Model.CssClass shadow-normal"><span translate="no">1 mm</span></div></td>
+            <td><div class="button @Model.CssClass shadow-normal"><span translate="no">10 mm</span></div></td>
+            <td></td>
+        </tr>
+    </table>
+    <div style="height: 175px; margin: 0px 25px 0px 15px;">
+        <div style="height: 30px;">&nbsp;</div>
+        <table border=0 cellpadding=0 cellspacing=0 width="100%" style="border-spacing: 2px;">
+            <colgroups><col><col><col><col width="100%"><col></colgroups>
+            <tr>
+                <td>&nbsp;</td>
+                <td><div class="arrow-base arrow-up @Model.CssClass shadow-normal" style="margin-top: 0px;"><span translate="no">Y</span></div></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><div class="arrow-base arrow-up @Model.CssClass shadow-normal" style="margin-top: 0px;"><span translate="no">Z</span></div></td>
+            </tr>
+            <tr>
+                <td><div class="arrow-base arrow-left @Model.CssClass shadow-normal" style="margin-top: 0px;"><span translate="no">X</span></div></td>
+                <td><div class="arrow-base arrow-center @Model.CssClass shadow-normal disabled" style="margin-top: 0px;">&nbsp;</div></td>
+                <td><div class="arrow-base arrow-right @Model.CssClass shadow-normal" style="margin-top: 0px;"><span translate="no">X</span></div></td>
+                <td>&nbsp;</td>
+                <td><div class="arrow-base arrow-center @Model.CssClass shadow-normal disabled" style="margin-top: 0px;">&nbsp;</div></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><div class="arrow-base arrow-down @Model.CssClass shadow-normal" style="margin-top: 0px;"><span translate="no">Y</span></div></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><div class="arrow-base arrow-down @Model.CssClass shadow-normal" style="margin-top: 0px;"><span translate="no">Z</span></div></td>
+            </tr>
+        </table>
+    </div>
+    <div class="buttons">
+        <table border=0 cellpadding=0 cellspacing=0 width="100%">
+            <colgroups><col width="50%"><col width="50%"></colgroups>
+            <tr>
+                <td><div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("XAxisZero")</div></td>
+                <td><div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("YAxisZero")</div></td>
+            </tr>
+            <tr>
+                <td><div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("ZAxisZero")</div></td>
+                <td><div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("ZeroAll")</div></td>
+            </tr>
+        </table>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Back")</div>
+    </div>
+</div>

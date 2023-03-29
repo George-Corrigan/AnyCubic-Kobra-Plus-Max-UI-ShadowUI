@@ -1,0 +1,14 @@
+﻿<div class="header">
+    <div class="title shadow-normal">
+        @await Html.PartialAsync("/Pages/Shared/Header_Temperatures.cshtml")
+        <div class="screen-number-center">[@Model.CurrentPage]</div>
+    </div>
+</div>
+<div class="body">
+    <div class="message-box shadow-normal">
+        @Model.GetCultureText("Message_198")
+    </div>
+    <div class="message-box-buttons">
+        <div class="button shadow-normal">@Model.GetCultureText("Ok")</div>
+    </div>
+</div>

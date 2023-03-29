@@ -1,0 +1,16 @@
+﻿<div class="header">
+    <div class="title shadow-normal"><img src="/images/home-house.png" height="14" /> &gt;
+        @Model.GetCultureText("System")
+        <div class="screen-number-right">[@Model.CurrentPage]</div>
+    </div>
+</div>
+<div class="body">
+    <div class="buttons">
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("MoveAxes")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Temperature")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Speed")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Light")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("MotorsOff")</div>
+        <div class="button @Model.CssClass shadow-normal">@Model.GetCultureText("Back")</div>
+    </div>
+</div>

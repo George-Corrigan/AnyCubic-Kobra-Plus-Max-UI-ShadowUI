@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Language_zh-Hans" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="Language_nl-NL" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="Language_en" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Language_fr" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="Language_de-DE" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="Language_it" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="Language_es" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="Language_th-TH" xml:space="preserve">
+    <value>Thai</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AutoLeveling" xml:space="preserve">
+    <value>Auto-Leveling</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BedTemp" xml:space="preserve">
+    <value>Bed Temp</value>
+  </data>
+  <data name="BuildVolume" xml:space="preserve">
+    <value>Build Volume</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="CurrentBedTemperature" xml:space="preserve">
+    <value>Current Bed Temperature</value>
+  </data>
+  <data name="CurrentFanSpeed" xml:space="preserve">
+    <value>Current Fan Speed</value>
+  </data>
+  <data name="CurrentNozzleTemperature" xml:space="preserve">
+    <value>Current Nozzle Temperature</value>
+  </data>
+  <data name="CurrentPrintRate" xml:space="preserve">
+    <value>Current Print Speed</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="FanSpeed" xml:space="preserve">
+    <value>Fan Speed</value>
+  </data>
+  <data name="Filament" xml:space="preserve">
+    <value>Filament</value>
+  </data>
+  <data name="FilamentIn" xml:space="preserve">
+    <value>Filament In</value>
+  </data>
+  <data name="FilamentOut" xml:space="preserve">
+    <value>Filament Out</value>
+  </data>
+  <data name="FirmwareVersion" xml:space="preserve">
+    <value>Firmware Version</value>
+  </data>
+  <data name="IpAddress" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="Leveling" xml:space="preserve">
+    <value>Leveling</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="Message_140" xml:space="preserve">
+    <value>The operation is finished!</value>
+  </data>
+  <data name="Message_141" xml:space="preserve">
+    <value>The printer's temperature sensor is not working properly.</value>
+  </data>
+  <data name="Message_142" xml:space="preserve">
+    <value>Printing is complete. The time it took is shown below.</value>
+  </data>
+  <data name="Message_143" xml:space="preserve">
+    <value>The current operation has been paused and is waiting for the cache command to finish.</value>
+  </data>
+  <data name="Message_144" xml:space="preserve">
+    <value>You are going to stop the current operation.</value>
+  </data>
+  <data name="Message_145" xml:space="preserve">
+    <value>The filament is either missing or the filament sensor is not working properly.</value>
+  </data>
+  <data name="Message_146" xml:space="preserve">
+    <value>An operation is currently in progress. Please try again later.</value>
+  </data>
+  <data name="Message_147" xml:space="preserve">
+    <value>To cancel printing, please press Ok.</value>
+  </data>
+  <data name="Message_148" xml:space="preserve">
+    <value>Failed to pause!</value>
+  </data>
+  <data name="Message_149" xml:space="preserve">
+    <value>Unable to find SD card!</value>
+  </data>
+  <data name="Message_150" xml:space="preserve">
+    <value>The print head temperature is too low. Please wait while it heats up.</value>
+  </data>
+  <data name="Message_151" xml:space="preserve">
+    <value>Failed to stop!</value>
+  </data>
+  <data name="Message_152" xml:space="preserve">
+    <value>Paused and waiting for the cache command to finish.</value>
+  </data>
+  <data name="Message_153" xml:space="preserve">
+    <value>Initiating probing operation.</value>
+  </data>
+  <data name="Message_154" xml:space="preserve">
+    <value>Probing in progress...</value>
+  </data>
+  <data name="Message_173" xml:space="preserve">
+    <value>An unexpected power failure has occurred, and the previous operation has stopped running.</value>
+  </data>
+  <data name="Message_174" xml:space="preserve">
+    <value>An unexpected power failure has occurred, and the previous operation has stopped running.</value>
+  </data>
+  <data name="Message_175" xml:space="preserve">
+    <value>Preheating, please wait...</value>
+  </data>
+  <data name="Message_189" xml:space="preserve">
+    <value>Homing in progress...</value>
+  </data>
+  <data name="Message_190" xml:space="preserve">
+    <value>An abnormality has been detected in the hotbed heater. Please inspect both the heater and wiring for any issues.</value>
+  </data>
+  <data name="Message_191" xml:space="preserve">
+    <value>An abnormality has been detected in the hotbed NTC. Please inspect both the NTC and wiring for any issues.</value>
+  </data>
+  <data name="Message_192" xml:space="preserve">
+    <value>An abnormality has been detected in the nozzle heater. Please inspect both the heater and wiring for any issues.</value>
+  </data>
+  <data name="Message_193" xml:space="preserve">
+    <value>An abnormality has been detected in the nozzle NTC. Please inspect both the NTC and wiring for any issues.</value>
+  </data>
+  <data name="Message_194" xml:space="preserve">
+    <value>The X homing process has failed. Please check the X endstop and wiring for any issues.</value>
+  </data>
+  <data name="Message_195" xml:space="preserve">
+    <value>The Y homing process has failed. Please check the Y endstop and wiring for any issues.</value>
+  </data>
+  <data name="Message_196" xml:space="preserve">
+    <value>The Z homing process has failed. Please check the Z endstop and wiring for any issues.</value>
+  </data>
+  <data name="Message_197" xml:space="preserve">
+    <value>The Z homing process has failed. Please check the ZL endstop and wiring for any issues.</value>
+  </data>
+  <data name="Message_198" xml:space="preserve">
+    <value>The Z homing process has failed. Please check the ZR endstop and wiring for any issues.</value>
+  </data>
+  <data name="Message_199" xml:space="preserve">
+    <value>An abnormality has been detected in the leveling sensor. Please check the wiring for any issues.</value>
+  </data>
+  <data name="Message_200" xml:space="preserve">
+    <value>Auto-leveling has failed. The hotend is too high from the hotbed. Please check if the Z endstop sticks or is malfunctioning.</value>
+  </data>
+  <data name="Message_204" xml:space="preserve">
+    <value>To calibrate the leveling sensor, use a tool to touch the printer nozzle.</value>
+  </data>
+  <data name="Message_205" xml:space="preserve">
+    <value>The calibration was successful and the leveling process has begun.</value>
+  </data>
+  <data name="Message_206" xml:space="preserve">
+    <value>The calibration has failed. Please check the wiring or contact customer service.</value>
+  </data>
+  <data name="MotorsOff" xml:space="preserve">
+    <value>Motors Off</value>
+  </data>
+  <data name="MoveAxes" xml:space="preserve">
+    <value>Move Axes</value>
+  </data>
+  <data name="NozzleTemp" xml:space="preserve">
+    <value>Nozzle Temp</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Preheat" xml:space="preserve">
+    <value>Preheat</value>
+  </data>
+  <data name="PreheatAbs" xml:space="preserve">
+    <value>Preheat ABS</value>
+  </data>
+  <data name="PreheatPla" xml:space="preserve">
+    <value>Preheat PLA</value>
+  </data>
+  <data name="Prepare" xml:space="preserve">
+    <value>Prepare</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="PrintFileSelection" xml:space="preserve">
+    <value>Print (File Selection)</value>
+  </data>
+  <data name="PrintPaused" xml:space="preserve">
+    <value>Print (Paused)</value>
+  </data>
+  <data name="PrintSpeed" xml:space="preserve">
+    <value>Print Speed</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Resume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="Set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SoundsDisabled" xml:space="preserve">
+    <value>Sounds Disabled</value>
+  </data>
+  <data name="SoundsEnabled" xml:space="preserve">
+    <value>Sounds Enabled</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="TargetBedTemperature" xml:space="preserve">
+    <value>Target Bed Temperature</value>
+  </data>
+  <data name="TargetFanSpeed" xml:space="preserve">
+    <value>Target Fan Speed</value>
+  </data>
+  <data name="TargetNozzleTemperature" xml:space="preserve">
+    <value>Target Nozzle Temperature</value>
+  </data>
+  <data name="TargetPrintSpeed" xml:space="preserve">
+    <value>Target Print Speed</value>
+  </data>
+  <data name="TechnicalSupport" xml:space="preserve">
+    <value>Technical Support</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="TimeElapsed" xml:space="preserve">
+    <value>Time Elapsed</value>
+  </data>
+  <data name="UIVersion" xml:space="preserve">
+    <value>UI Version</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="UserInput" xml:space="preserve">
+    <value>User Input</value>
+  </data>
+  <data name="WiFi" xml:space="preserve">
+    <value>Wi-Fi</value>
+  </data>
+  <data name="WiFiName" xml:space="preserve">
+    <value>Wi-Fi Name</value>
+  </data>
+  <data name="X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="XAxisZero" xml:space="preserve">
+    <value>X-Axis Zero</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="YAxisZero" xml:space="preserve">
+    <value>Y-Axis Zero</value>
+  </data>
+  <data name="Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="ZAxisZero" xml:space="preserve">
+    <value>Z-Axis Zero</value>
+  </data>
+  <data name="ZeroAll" xml:space="preserve">
+    <value>Zero All</value>
+  </data>
+  <data name="ZOffset" xml:space="preserve">
+    <value>Z-Offset</value>
+  </data>
+</root>
