@@ -19,6 +19,14 @@ This should work with 3 of the Kobra series printers. The Kobra and Kobra Plus h
 
 - - - -
 
+### This is part of an optional modified printer firmware set.
+Click the link for your printer below for more details on updating the printer firmware.
+* https://github.com/George-Corrigan/AnyCubic-Kobra-Max-Printer
+* https://github.com/George-Corrigan/AnyCubic-Kobra-Plus-Printer
+* https://github.com/George-Corrigan/AnyCubic-Kobra-Printer
+
+- - - -
+
 Below is a list of versions and changes made:
 
 #### v1.0
