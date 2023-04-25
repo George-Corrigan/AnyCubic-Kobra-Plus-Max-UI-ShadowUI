@@ -17,8 +17,17 @@ This should work with 3 of the Kobra series printers. The Kobra and Kobra Plus h
 
 [![Preview Video](https://img.youtube.com/vi/XPdt1kJQ2_s/maxresdefault.jpg)](https://youtu.be/XPdt1kJQ2_s)
 
+- - - -
 
-## Installing ShadowUI firmware
+Below is a list of versions and changes made:
+
+#### v1.0
+* Completely redesigned all screens for a better user experience.
+* Added support for the following languages: Chinese, Dutch, English, French, German, Italian, Spanish, and Thai.
+   
+- - - -
+
+## Installing ShadowUI UI firmware
 
 1. Download the latest release and locate the build for the desired language.
 
@@ -31,7 +40,7 @@ This should work with 3 of the Kobra series printers. The Kobra and Kobra Plus h
 ![Example](/Source/Media/Process.jpg)
 
 
-## Reverting to original factory firmware
+## Reverting to original factory UI firmware
 
 Note: This is to go back to factory defaults if you do not wish to continue using ShadowUI.
 
