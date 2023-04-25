@@ -1,12 +1,12 @@
-# AnyCubic Kobra Max UI - ShadowUI
+# AnyCubic Kobra/Plus/Max UI - ShadowUI
 
-This is a new UI for the AnyCubic Kobra Max 3D printer. This replaces the clunky monochrome UI with a colorful and user friendly experience. This is only a UI update and should work with either factory or custom firmware files.
+This is a new UI for the AnyCubic Kobra/Plus/Max 3D printers. This replaces the clunky monochrome UI with a colorful and user friendly experience. This is only a UI update and should work with either factory or custom firmwares.
 
 This is written to support many languages. The current list is Chinese, Dutch, English, French, German, Italian, Spanish, and Thai. These were generated with Google translate. If there are any inaccuracies or someone believes the translations to be correct, feel free to message me in regards to this.
 
 Each language was overwritten on the English screens. So you would need to re-flash with the appropriate set of files for the desired language. Also, the “Language” button has been disabled since this is the process for changing languages.
 
-I have not tested if this will work on any of the other Kobra series printers. This would be made at your own risk.
+This should work with 3 of the Kobra series printers. The Kobra and Kobra Plus have not been fully tested. The Kobra Max has been thoroughly tested.
 
 ![Preview 1](/Source/Media/121.png)
 ![Preview 1](/Source/Media/124.png)
@@ -17,8 +17,25 @@ I have not tested if this will work on any of the other Kobra series printers. T
 
 [![Preview Video](https://img.youtube.com/vi/XPdt1kJQ2_s/maxresdefault.jpg)](https://youtu.be/XPdt1kJQ2_s)
 
+- - - -
 
-## Installing ShadowUI firmware
+### This is part of an optional modified printer firmware set.
+Click the link for your printer below for more details on updating the printer firmware.
+* https://github.com/George-Corrigan/AnyCubic-Kobra-Max-Printer
+* https://github.com/George-Corrigan/AnyCubic-Kobra-Plus-Printer
+* https://github.com/George-Corrigan/AnyCubic-Kobra-Printer
+
+- - - -
+
+Below is a list of versions and changes made:
+
+#### v1.0
+* Completely redesigned all screens for a better user experience.
+* Added support for the following languages: Chinese, Dutch, English, French, German, Italian, Spanish, and Thai.
+   
+- - - -
+
+## Installing ShadowUI UI firmware
 
 1. Download the latest release and locate the build for the desired language.
 
@@ -31,7 +48,7 @@ I have not tested if this will work on any of the other Kobra series printers. T
 ![Example](/Source/Media/Process.jpg)
 
 
-## Reverting to original factory firmware
+## Reverting to original factory UI firmware
 
 Note: This is to go back to factory defaults if you do not wish to continue using ShadowUI.
 
