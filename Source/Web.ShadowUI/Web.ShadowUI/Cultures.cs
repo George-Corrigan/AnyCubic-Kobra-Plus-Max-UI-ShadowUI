@@ -5,19 +5,34 @@ namespace Web.ShadowUI
     public class Cultures
     {
 
+        public static string VersionNumber = "v20220510, ShadowUI v1.0";
+
         public static string CheckCultureText(string cultureName, string cultureText)
         {
             System.Collections.Generic.Dictionary<string, string> replaces = null;
+
+            if (cultureText.Equals("UIVersionNumber", StringComparison.CurrentCultureIgnoreCase))
+            {
+                if ((cultureName.Equals("de-DE", StringComparison.CurrentCultureIgnoreCase)) &&
+                    (VersionNumber.EndsWith("v1.0", StringComparison.CurrentCultureIgnoreCase))
+                    )
+                {
+                    return VersionNumber += ".1";
+                }
+                return VersionNumber;
+            }
 
             if (cultureName.Equals("de-DE", StringComparison.CurrentCultureIgnoreCase)) // German
             {
                 replaces = new System.Collections.Generic.Dictionary<string, string>(new System.Collections.Generic.KeyValuePair<string, string>[]
                 {
-                    new System.Collections.Generic.KeyValuePair<string, string>("Druckgeschwindigkeit", "Druck geschwindigkeit"), // Wrap Issues
-                    new System.Collections.Generic.KeyValuePair<string, string>("Lüftergeschwindigkeit", "Lüfter geschwindigkeit") // Wrap Issues
+                    new System.Collections.Generic.KeyValuePair<string, string>("Druckgeschwindigkeit", "Druck\u200Bgeschwindigkeit"), // Wrap Issues
+                    new System.Collections.Generic.KeyValuePair<string, string>("Lüftergeschwindigkeit", "Lüfter\u200Bgeschwindigkeit"), // Wrap Issues
+                    new System.Collections.Generic.KeyValuePair<string, string>("Düsentemperatur", "Düsen\u200Btemperatur"), // Wrap Issues
+                    new System.Collections.Generic.KeyValuePair<string, string>("Heizbetttemperatur", "Heizbett\u200Btemperatur"), // Wrap Issues
                 });
             }
-            
+
             if (cultureName.Equals("zh-Hans", StringComparison.CurrentCultureIgnoreCase)) // Chinese
             {
                 replaces = new System.Collections.Generic.Dictionary<string, string>(new System.Collections.Generic.KeyValuePair<string, string>[]
